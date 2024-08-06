@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+
+body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.btnc{
+  border: none;
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 0.9rem; // Corrigido para um tamanho de fonte mais visível
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
+  display: flex;
+  cursor: pointer;
+  &-cancelar{
+    $base-color:#ff0000;
+    color: white;
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 5%);
+    }
+  }
+  &-normal{
+    $base-color:#f7a50c;
+    color: white;
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 5%);
+    }
+  }
+  &-none{
+    $base-color:#f7a50c00;
+    color: black;
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 5%);
+    }
+  }
+  &:active {
+    transform: scale(0.95);
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+.btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
+
+  &-confirm {
+    $base-color: #06a80c;
+    color: white;
+    background-color: $base-color;
+
+    &:hover {
+      background-color: lighten($base-color, 5%);
+    }
+  }
+
+  &-comanda {
+    $base-color: #f7a50c;
+    color: white;
+    background-color: $base-color;
+
+    &:hover {
+      background-color: lighten($base-color, 5%);
+    }
+  }
+
+  &-blue {
+    $base-color: #0000ff;
+    color: white;
+    background-color: $base-color;
+
+    &:hover {
+      background-color: lighten($base-color, 5%);
+    }
+  }
+
+  &:active {
+    transform: scale(0.95);
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.ipt{
+  border: none;
+  font-size: 1rem;
+  padding: 8px 35px;
+  &:focus-visible{
+    border: none;
+    outline: none;
+  }
+  &-search{
+    text-align: center;
+  }
+}

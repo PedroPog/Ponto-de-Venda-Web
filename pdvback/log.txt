@@ -1,0 +1,14 @@
+_____
+05-08-2024  17:24:44.381 *Exce��o   Iniciou de sessão: SWSIM, versão: 03.00.11 
+	Método de comunicação configurado: SERIAL
+	Nível de log: 0 (Desligado)
+	
+
+05-08-2024  17:25:22.205 *Exce��o   Encerrou a seção iniciada em: 05-08-2024  17:24:44.381 
+_____
+05-08-2024  17:25:30.094 *Exce��o   Iniciou de sessão: SWSIM, versão: 03.00.11 
+	Método de comunicação configurado: SERIAL
+	Nível de log: 0 (Desligado)
+	
+
+05-08-2024  17:28:33.736 *Exce��o   Encerrou a seção iniciada em: 05-08-2024  17:25:30.094 
